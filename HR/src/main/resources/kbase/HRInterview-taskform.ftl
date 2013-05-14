@@ -155,14 +155,7 @@
 	</div>
     <input type="hidden" name="taskId" value="${task.id}"/>
 	<div id="content">
-		<fieldset>
-            <legend>Interview</legend>
-            	
-            	
-            	<label for="name">Description</label>
-            	<div class="div_checkbox"><![CDATA[Candidate: ${name}]]></div>
-            <div class="clear"></div>
-          </fieldset>
+		
 	
 		<fieldset>
             <legend>Task Inputs</legend>
@@ -177,7 +170,6 @@
           
           <fieldset>
             <legend>Task Outputs</legend>
-            <form action="complete" method="POST" enctype="multipart/form-data" onsubmit="return taskFormValidator()">
 
                             		
                             
