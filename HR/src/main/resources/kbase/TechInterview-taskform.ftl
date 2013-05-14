@@ -3,94 +3,7 @@
 <meta charset="utf-8">
 </head>
 <body>
-<script type='text/javascript'>
-	function notEmpty(elem){
-		if(elem.value.length == 0){
-			return false;
-		}
-		return true;
-	}
-	
-	function isNumeric(elem){
-		var numericExpression = /^[0-9]+$/;
-		if(elem.value.match(numericExpression)){
-			return true;
-		} else {
-			return false;
-		}
-	}
-	
-	function isAlphabet(elem){
-        var alphaExp = /^[a-zA-Z0-9\u00A1-\uFFFF\_ .-@]+$/;
-        if(elem.value.match(alphaExp)){
-            return true;
-        } else {
-            return false;
-        }
-    }
 
-    function isAlphanumeric(elem){
-        var alphaExp = /^[a-zA-Z0-9\u00A1-\uFFFF\_ .-@]+$/;
-        if(elem.value.match(alphaExp) && !isNumeric(elem)){
-            return true;
-        } else {
-            return false;
-        }
-    }
-	
-	function isFloat(elem){
-   		if(elem.value.indexOf(".") < 0){
-     		return false;
-   		} else {
-      		if(parseFloat(elem.value)) {
-              return true;
-          	} else {
-              return false;
-          	}
-   		}
-	}
-	
-	function taskFormValidator() {
-		var i=0;
-		var myInputs = new Array();
-
-					myInputs[i] = document.getElementById("out_skills");
-					i++;
-				
-					myInputs[i] = document.getElementById("out_score");
-					i++;
-				
-					myInputs[i] = document.getElementById("out_twitter");
-					i++;
-				
-		
-		var j=0;
-
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid out_skills");
-							myInputs[j].focus();
-							return false;
-						}	
-					j++;
-				
-						if(notEmpty(myInputs[j]) && !isNumeric(myInputs[j])) {
-							alert("Please enter valid out_score");
-							myInputs[j].focus();
-							return false;
-						}
-			
-					j++;
-				
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid out_twitter");
-							myInputs[j].focus();
-							return false;
-						}	
-					j++;
-				
-		return true;
-	}
-</script>
 <style type="text/css">
 	#container
 	{
@@ -238,42 +151,26 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: Hiring a Developer.TechInterview
+		Technical Interview
 	</div>
+  <input type="hidden" name="taskId" value="${task.id}"/>
 	<div id="content">
-		<fieldset>
-            <legend>Task Info</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
-            	
-            	</div>
-            	<label for="name">Actor ID</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
-            	<div class="div_checkbox">IT</div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"><![CDATA[Candidate: ${name}]]></div>
-            <div class="clear"></div>
-          </fieldset>
+		
 	
 		<fieldset>
             <legend>Task Inputs</legend>
 
-                            		<label for="name">in_name</label>
+                            		<label for="name">Candidate Name</label>
                             		<div class="div_checkbox">
                               		${in_name}
                             		</div>
                             
-                            		<label for="name">in_age</label>
+                            		<label for="name">Age</label>
                             		<div class="div_checkbox">
                               		${in_age}
                             		</div>
                             
-                            		<label for="name">in_mail</label>
+                            		<label for="name">Email</label>
                             		<div class="div_checkbox">
                               		${in_mail}
                             		</div>
@@ -283,32 +180,34 @@
           
           <fieldset>
             <legend>Task Outputs</legend>
-            <form action="complete" method="POST" enctype="multipart/form-data" onsubmit="return taskFormValidator()">
+            
 
-                            		<label for="name">out_skills</label>
+                            		<label for="name">Skills</label>
                             		<div class="div_texbox">
                               		<input name="out_skills" type="text" class="textbox" id="out_skills" value="" />
                             		</div>	
                             
-                            		<label for="name">out_score</label>
+                            		<label for="name">Score</label>
                             		<div class="div_texbox">
-                              		<input name="out_score" type="text" class="textbox" id="out_score" value="" />
+                              		<select name="out_score" id="out_score">
+                  <option value="1">1 - Poor</option>
+                  <option value="2">2</option>
+                  <option value="3">3 - Well</option>
+		  <option value="4">4</option>
+		  <option value="5">5 - Excellent</option>
+		</select>
                             		</div>	
                             
-                            		<label for="name">out_twitter</label>
+                            		<label for="name">Twitter</label>
                             		<div class="div_texbox">
-                              		<input name="out_twitter" type="text" class="textbox" id="out_twitter" value="" />
+                              		<input name="out_twitter" type="text" class="textbox" id="out_twitter" value="@" />
                             		</div>	
                             
-              <div class="button_div">
-                <input name="Submit" type="submit" value="Submit" class="buttons" />
-              </div>
-            </form>
+             
             <div class="clear"></div>
           </fieldset>
 	</div>
-	<div id="footer">
-	</div>
+	
 </div>
 </body>
 </html>

@@ -3,73 +3,7 @@
 <meta charset="utf-8">
 </head>
 <body>
-<script type='text/javascript'>
-	function notEmpty(elem){
-		if(elem.value.length == 0){
-			return false;
-		}
-		return true;
-	}
-	
-	function isNumeric(elem){
-		var numericExpression = /^[0-9]+$/;
-		if(elem.value.match(numericExpression)){
-			return true;
-		} else {
-			return false;
-		}
-	}
-	
-	function isAlphabet(elem){
-        var alphaExp = /^[a-zA-Z0-9\u00A1-\uFFFF\_ .-@]+$/;
-        if(elem.value.match(alphaExp)){
-            return true;
-        } else {
-            return false;
-        }
-    }
 
-    function isAlphanumeric(elem){
-        var alphaExp = /^[a-zA-Z0-9\u00A1-\uFFFF\_ .-@]+$/;
-        if(elem.value.match(alphaExp) && !isNumeric(elem)){
-            return true;
-        } else {
-            return false;
-        }
-    }
-	
-	function isFloat(elem){
-   		if(elem.value.indexOf(".") < 0){
-     		return false;
-   		} else {
-      		if(parseFloat(elem.value)) {
-              return true;
-          	} else {
-              return false;
-          	}
-   		}
-	}
-	
-	function taskFormValidator() {
-		var i=0;
-		var myInputs = new Array();
-
-					myInputs[i] = document.getElementById("out_signed");
-					i++;
-				
-		
-		var j=0;
-
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid out_signed");
-							myInputs[j].focus();
-							return false;
-						}	
-					j++;
-				
-		return true;
-	}
-</script>
 <style type="text/css">
 	#container
 	{
@@ -217,37 +151,21 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: Hiring a Developer.SignContract
+		Sign Contract
 	</div>
+   <input type="hidden" name="taskId" value="${task.id}"/>
 	<div id="content">
-		<fieldset>
-            <legend>Task Info</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
-            	
-            	</div>
-            	<label for="name">Actor ID</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
-            	<div class="div_checkbox">HR</div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"><![CDATA[with ${name}]]></div>
-            <div class="clear"></div>
-          </fieldset>
+		
 	
 		<fieldset>
             <legend>Task Inputs</legend>
 
-                            		<label for="name">in_offering</label>
+                            		<label for="name">Offer</label>
                             		<div class="div_checkbox">
                               		${in_offering}
                             		</div>
                             
-                            		<label for="name">in_name</label>
+                            		<label for="name">Candidate Name</label>
                             		<div class="div_checkbox">
                               		${in_name}
                             		</div>
@@ -257,22 +175,21 @@
           
           <fieldset>
             <legend>Task Outputs</legend>
-            <form action="complete" method="POST" enctype="multipart/form-data" onsubmit="return taskFormValidator()">
+            
 
-                            		<label for="name">out_signed</label>
+                            		<label for="name">Signed</label>
                             		<div class="div_checkbox">
-                              		<input name="out_signed" type="checkbox" class="checkbox" id="out_signed" value="" />
+                              		<select name="out_signed" id="out_signed">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+		</select>
                             		</div>	
                             
-              <div class="button_div">
-                <input name="Submit" type="submit" value="Submit" class="buttons" />
-              </div>
-            </form>
+              
             <div class="clear"></div>
           </fieldset>
 	</div>
-	<div id="footer">
-	</div>
+	
 </div>
 </body>
 </html>
