@@ -2,7 +2,7 @@
     <input type="hidden" name="taskId" value="${task.id}"/>
     <legend>Task Inputs</legend>
     <div class="control-group">
-        <label class="control-label">Candite Name</label>
+        <label class="control-label">Candidate Name</label>
         <div class="controls">
             <input type="text" value="${in_name}"/>
         </div>
