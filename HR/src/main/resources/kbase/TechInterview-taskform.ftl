@@ -5,19 +5,19 @@
     <div class="control-group">
         <label class="control-label">Candite Name</label>
         <div class="controls">
-            <input type="text" value="${in_name}"/>
+            <span class="uneditable-input">${in_name}</span>
         </div>
     </div>   
     <div class="control-group">
         <label class="control-label">Age</label>
         <div class="controls">
-            <input type="text" value="${in_age}"/>
+	    <span class="uneditable-input">${in_age}</span>
         </div>
     </div> 
     <div class="control-group">
         <label class="control-label">Email</label>
         <div class="controls">
-            <input type="text" value="${in_mail}"/>
+           <span class="uneditable-input">${in_mail}</span> 
         </div>
     </div>                               
     <legend>Task Outputs</legend>

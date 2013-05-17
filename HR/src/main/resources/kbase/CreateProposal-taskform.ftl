@@ -4,13 +4,13 @@
     <div class="control-group">
         <label class="control-label">Technical Score</label>
         <div class="controls">
-            <input type="text" value="${in_tech_score}"/>
+		<span class="uneditable-input">${in_tech_score}</span>
         </div>
     </div>   
     <div class="control-group">
         <label class="control-label">HR Score</label>
         <div class="controls">
-            <input type="text" value="${in_hr_score}"/>
+            <span class="uneditable-input">${in_hr_score}</span>
         </div>
     </div>                         
     <legend>Task Outputs</legend>

@@ -4,7 +4,7 @@
     <div class="control-group">
         <label class="control-label">Candidate Name</label>
         <div class="controls">
-            <input type="text" value="${in_name}"/>
+            <span class="uneditable-input">${in_name}</span>
         </div>
     </div>    	
     <legend>Task Outputs</legend>
