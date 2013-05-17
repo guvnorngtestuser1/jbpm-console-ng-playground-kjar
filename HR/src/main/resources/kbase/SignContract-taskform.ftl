@@ -10,14 +10,14 @@
    <div class="control-group">
         <label class="control-label">Candidate Name</label>
         <div class="controls">
-            <span class="uneditable-input">${in_name}"</span>
+            <span class="uneditable-input">${in_name}</span>
 
         </div>
     </div>
      <div class="control-group">
         <label class="control-label">Offer</label>
         <div class="controls">
-            <span class="uneditable-input">${in_offering}"</span>
+            <span class="uneditable-input">${in_offering}</span>
         </div>
     </div>      
     <legend>Task Outputs</legend>
