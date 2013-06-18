@@ -8,7 +8,8 @@
         <label class="control-label" for="invoice.client">Candidate Name</label>
 
         <div class="controls">
-            <input type="text" value="" id="invoice.client" class="" name="invoice.client">
+
+            <input type="text" value="" id="invoice.client" name="${invoice.client}">
         </div>
     </div>
 </div>
