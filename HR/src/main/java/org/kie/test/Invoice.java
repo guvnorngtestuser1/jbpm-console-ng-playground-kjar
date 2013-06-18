@@ -26,4 +26,12 @@ public class Invoice implements java.io.Serializable {
     public void setClient(String client) {
         this.client = client;
     }
+    
+    @Override
+    public String toString() {
+        return "Invoice{" +
+                "number='" + number + '\'' +
+                ", client='" + client + '\'' +
+                '}';
+    }
 }
