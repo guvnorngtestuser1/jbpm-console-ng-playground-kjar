@@ -5,12 +5,7 @@
 
 
     <div class="control-group">
-        <label class="control-label" for="invoice.client">Candidate Name</label>
-
-        <div class="controls">
-
-            <input type="text" value="" id="invoice.client" name="${invoice.client}">
-        </div>
+        <label class="control-label" for="invoice.client">Emtpy form for TestPojos5 process</label>
     </div>
 </div>
 
