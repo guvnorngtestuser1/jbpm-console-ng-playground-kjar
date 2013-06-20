@@ -51,7 +51,7 @@
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GJuhYdf4EeKnTc15_TtiWg">_E2968952-3CAE-467C-85B2-09E976303EEF_TaskNameInput</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:script><![CDATA[System.out.println("XXXXXX TestPojos5, Task2: " + new java.util.Date());\n\nSystem.out.println("Invoice: " + invoice);\nSystem.out.println("Creating invoice");\n\ninvoice = new org.kie.test.Invoice();\ninvoice.setNumber("1");\ninvoice.setClient("Client 1");\nkcontext.setVariable("invoice", invoice);\n]]></bpmn2:script>
+      <bpmn2:script><![CDATA[System.out.println("XXXXXX TestPojos5, Task2: " + new java.util.Date());\n\nSystem.out.println("Invoice: " + invoice);\n]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_57845823-3803-4687-91DE-554F67F66CD0" drools:bgcolor="#000000" drools:selectable="true" sourceRef="_F95046E9-4DA9-4B1B-869F-FE1B1B4D8306" targetRef="_E2968952-3CAE-467C-85B2-09E976303EEF"/>
     <bpmn2:sequenceFlow id="_ADC87278-5180-4054-BB6D-CA35636D0073" drools:bgcolor="#000000" drools:selectable="true" sourceRef="_E2968952-3CAE-467C-85B2-09E976303EEF" targetRef="_BA62E624-13C1-44DA-9AED-9EE8C9C7A126"/>
