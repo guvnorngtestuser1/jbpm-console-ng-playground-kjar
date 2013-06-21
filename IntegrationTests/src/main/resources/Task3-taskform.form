@@ -3,17 +3,17 @@
 <property name="name" value="TestPojos5-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="invoice_client" type="InputText" id="1997918639">
-<property name="fieldName" value="invoice_client"/>
+<field position="0" name="in_invoice_client" type="InputText" id="1997918639">
+<property name="fieldName" value="in_invoice_client"/>
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;client (invoice)quot;"/>
-<property name="bindingStr" value="{invoice/client}"/>
+<property name="bindingStr" value="{in_invoice/client}"/>
 </field>
-<field position="1" name="invoice_number" type="InputText" id="283761896">
-<property name="fieldName" value="invoice_number"/>
+<field position="1" name="in_invoice_number" type="InputText" id="283761896">
+<property name="fieldName" value="in_invoice_number"/>
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;number (invoice)quot;"/>
-<property name="bindingStr" value="{invoice/number}"/>
+<property name="bindingStr" value="{in_invoice/number}"/>
 </field>
-<dataHolder name="#E9E371" type="dataModelerEntry" value="org.kie.test.Invoice" id="invoice"/>
+<dataHolder name="#E9E371" type="dataModelerEntry" value="org.kie.test.Invoice" id="in_invoice"/>
 </form>
