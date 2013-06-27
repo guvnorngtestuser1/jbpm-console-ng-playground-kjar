@@ -4,8 +4,8 @@
 <property name="name" value="HRInterview-taskform"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="in_name" type="InputText" id="1239526896">
-<property name="fieldName" value="in_name"/>
+<field position="0" name="name" type="InputText" id="1239526896">
+<property name="fieldName" value="name"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -25,10 +25,11 @@
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{in_name}"/>
+<property name="inputBinding" value="{in_name}"/>
+<property name="outputBinding" value=""/>
 </field>
-<field position="1" name="out_age" type="InputTextInteger" id="610009915">
-<property name="fieldName" value="out_age"/>
+<field position="1" name="age" type="InputTextInteger" id="610009915">
+<property name="fieldName" value="age"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -45,10 +46,11 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{out_age}"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="{out_age}"/>
 </field>
-<field position="2" name="out_mail" type="InputTextEmail" id="1708799249">
-<property name="fieldName" value="out_mail"/>
+<field position="2" name="mail" type="InputTextEmail" id="1708799249">
+<property name="fieldName" value="mail"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -63,10 +65,11 @@
 <property name="cssStyle" value=""/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{out_mail}"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="{out_mail}"/>
 </field>
-<field position="3" name="out_score" type="InputTextInteger" id="587322916">
-<property name="fieldName" value="out_score"/>
+<field position="3" name="hr_score" type="InputTextInteger" id="587322916">
+<property name="fieldName" value="hr_score"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -82,25 +85,7 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{out_score}"/>
-</field>
-<field position="4" name="taskId" type="InputTextLong" id="631571937">
-<property name="fieldName" value="taskId"/>
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value="display:none"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;display:nonequot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="disabled" value="false"/>
-<property name="readonly" value="false"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value="display:none"/>
-<property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="${task.id}"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="{out_score}"/>
 </field>
 </form>

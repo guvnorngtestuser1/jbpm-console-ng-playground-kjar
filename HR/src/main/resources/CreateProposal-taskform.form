@@ -5,8 +5,8 @@
 <property name="displayMode" value="aligned"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<field position="1" name="in_tech_score" type="InputText" id="536191789">
-<property name="fieldName" value="in_tech_score"/>
+<field position="0" name="techscore" type="InputText" id="536191789">
+<property name="fieldName" value="techscore"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -14,11 +14,11 @@
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;Technical Scorequot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="disabled" value="false"/>
+<property name="disabled" value="true"/>
 <property name="readonly" value="true"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
+<property name="rangeFormula" value="{1,1 - Poor;2,2;3,3 - Well;4,4;5,5 - Excellent}"/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
@@ -26,10 +26,11 @@
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{in_tech_score}"/>
+<property name="outputBinding" value=""/>
+<property name="inputBinding" value="{in_tech_score}"/>
 </field>
-<field position="2" name="in_hr_score" type="InputText" id="1396079384">
-<property name="fieldName" value="in_hr_score"/>
+<field position="1" name="hrscore" type="InputText" id="1396079384">
+<property name="fieldName" value="hrscore"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -38,21 +39,22 @@
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
+<property name="rangeFormula" value="{1,1 - Poor;2,2;3,3 - Well;4,4;5,5 - Excellent}"/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{in_hr_score}"/>
+<property name="inputBinding" value="{in_hr_score}"/>
+<property name="outputBinding" value=""/>
 </field>
-<field position="3" name="out_offering" type="InputTextLong" id="438070247">
-<property name="fieldName" value="out_offering"/>
+<field position="2" name="offering" type="InputTextInteger" id="438070247">
+<property name="fieldName" value="offering"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -68,29 +70,7 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{out_offering}"/>
-</field>
-<field position="0" name="taskId" type="InputTextLong" id="1099151541">
-<property name="fieldName" value="taskId"/>
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="disabled" value="false"/>
-<property name="readonly" value="true"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="pattern" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value="display:none"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="htmlContainer" value=""/>
-<property name="defaultValueFormula" value=""/>
-<property name="bindingStr" value="{task.id}"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="{out_offering}"/>
 </field>
 </form>
