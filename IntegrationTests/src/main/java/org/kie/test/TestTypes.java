@@ -111,7 +111,28 @@ public class TestTypes  implements java.io.Serializable {
         this.useString = useString;
     }
 
+    @Override
+    public String toString() {
+        String result = "TestTypes{" +
+                "useBigDecimal=" + useBigDecimal +
+                ", useDouble=" + useDouble +
+                ", useBoolean=" + useBoolean +
+                ", useInteger=" + useInteger +
+                ", useLong=" + useLong +
+                ", lines=" + lines +
+                ", useDate=" + useDate +
+                ", useFloat=" + useFloat +
+                ", useShort=" + useShort +
+                ", useString='" + useString + '\'';
 
+        if (lines != null) {
+            for (TestTypesLine line : lines) {
+                result += "\\n";
+                result += "line: " + line;
+            }
+        }
+        result += '}';
 
-
+        return result;
+    }
 }

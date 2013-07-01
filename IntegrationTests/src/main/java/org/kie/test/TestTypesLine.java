@@ -101,7 +101,20 @@ public class TestTypesLine  implements java.io.Serializable {
         this.useString = useString;
     }
 
-
+    @Override
+    public String toString() {
+        return "TestTypesLine{" +
+                "useBigDecimal=" + useBigDecimal +
+                ", useDouble=" + useDouble +
+                ", useInteger=" + useInteger +
+                ", useBoolean=" + useBoolean +
+                ", useLong=" + useLong +
+                ", useShort=" + useShort +
+                ", useFloat=" + useFloat +
+                ", useDate=" + useDate +
+                ", useString='" + useString + '\'' +
+                '}';
+    }
 
 
 }
