@@ -1,3 +1,4 @@
+
 <form id="1502434622">
 <property name="subject" value=""/>
 <property name="name" value="TestTypesTask1-taskform.form"/>
@@ -45,5 +46,19 @@
 <property name="inputBinding" value="{in_testTypes/useString}"/>
 <property name="outputBinding" value="{out_testTypes/useString}"/>
 </field>
-<dataHolder name="#FF8881" type="dataModelerEntry" outId="out_testTypes" value="org.kie.test.TestTypes" id="in_testTypes"/>
+<<field position="6" name="in_testTypes_useFloat" type="InputTextFloat" id="1234618088">
+<property name="fieldName" value="in_testTypes_useFloat"/>
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useFloat (in_testTypes)quot;"/>
+<property name="inputBinding" value="{in_testTypes/useFloat}"/>
+<property name="outputBinding" value="{out_testTypes/useFloat}"/>
+</field>
+<field position="7" name="in_testTypes_useShort" type="InputTextShort" id="284947929">
+<property name="fieldName" value="in_testTypes_useShort"/>
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useShort (in_testTypes)quot;"/>
+<property name="inputBinding" value="{in_testTypes/useShort}"/>
+<property name="outputBinding" value="{out_testTypes/useShort}"/>
+</field>
+dataHolder name="#FF8881" type="dataModelerEntry" outId="out_testTypes" value="org.kie.test.TestTypes" id="in_testTypes"/>
 </form>
