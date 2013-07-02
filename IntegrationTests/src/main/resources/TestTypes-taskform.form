@@ -60,5 +60,5 @@
 <property name="inputBinding" value="{in_testTypes/useShort}"/>
 <property name="outputBinding" value="{testTypes/useShort}"/>
 </field>
-dataHolder name="#FF8881" type="dataModelerEntry" outId="testTypes" value="org.kie.test.TestTypes" id="in_testTypes"/>
+<dataHolder name="#FF8881" type="dataModelerEntry" outId="testTypes" value="org.kie.test.TestTypes" id="in_testTypes"/>
 </form>
