@@ -46,7 +46,7 @@
 <property name="inputBinding" value="{in_testTypes/useString}"/>
 <property name="outputBinding" value="{out_testTypes/useString}"/>
 </field>
-<<field position="6" name="in_testTypes_useFloat" type="InputTextFloat" id="149606642">
+<field position="6" name="in_testTypes_useFloat" type="InputTextFloat" id="149606642">
 <property name="fieldName" value="in_testTypes_useFloat"/>
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;useFloat (in_testTypes)quot;"/>
