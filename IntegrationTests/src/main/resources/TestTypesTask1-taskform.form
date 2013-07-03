@@ -60,5 +60,12 @@
 <property name="inputBinding" value="{in_testTypes/useShort}"/>
 <property name="outputBinding" value="{out_testTypes/useShort}"/>
 </field>
+<field position="8" name="in_testTypes_useBigDecimal" type="InputTextBigDecimal" id="862117991">
+<property name="fieldName" value="in_testTypes_useBigDecimal"/>
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useBigDecimal (in_testTypes)quot;"/>
+<property name="inputBinding" value="{in_testTypes/useBigDecimal}"/>
+<property name="outputBinding" value="{out_testTypes/useBigDecimal}"/>
+</field>
 <dataHolder name="#FF8881" type="dataModelerEntry" outId="out_testTypes" value="org.kie.test.TestTypes" id="in_testTypes"/>
 </form>
