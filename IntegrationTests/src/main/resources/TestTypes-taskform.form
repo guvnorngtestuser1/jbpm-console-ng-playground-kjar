@@ -14,7 +14,19 @@
 <field position="1" name="in_testTypes_useDate" type="InputDate" id="1591407088">
 <property name="fieldName" value="in_testTypes_useDate"/>
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;useDate (in_testTypes)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;useDate (in_testTypes)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="{in_testTypes/useDate}"/>
 <property name="outputBinding" value="{testTypes/useDate}"/>
 </field>
