@@ -93,7 +93,7 @@
       <bpmn2:dataInputAssociation id="_k9L9ObzKEeKT6qCaqCIbfQ">
         <bpmn2:targetRef>_6998ACD3-21DC-421D-AC04-BA7D375B0B21_CommentInput</bpmn2:targetRef>
         <bpmn2:assignment id="_k9L9OrzKEeKT6qCaqCIbfQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9L9O7zKEeKT6qCaqCIbfQ"><![CDATA[Candidate: ${name}]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9L9O7zKEeKT6qCaqCIbfQ"><![CDATA[Candidate: #{name}]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k9L9PLzKEeKT6qCaqCIbfQ">_6998ACD3-21DC-421D-AC04-BA7D375B0B21_CommentInput</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -167,7 +167,7 @@
       <bpmn2:dataInputAssociation id="_k9L9TrzKEeKT6qCaqCIbfQ">
         <bpmn2:targetRef>_FADFBC55-C369-4F58-B04B-3AD20337F215_CommentInput</bpmn2:targetRef>
         <bpmn2:assignment id="_k9L9T7zKEeKT6qCaqCIbfQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9L9ULzKEeKT6qCaqCIbfQ"><![CDATA[Candidate: ${name}]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9L9ULzKEeKT6qCaqCIbfQ"><![CDATA[Candidate: #{name}]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k9L9UbzKEeKT6qCaqCIbfQ">_FADFBC55-C369-4F58-B04B-3AD20337F215_CommentInput</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -231,7 +231,7 @@
       <bpmn2:dataInputAssociation id="_k9MkS7zKEeKT6qCaqCIbfQ">
         <bpmn2:targetRef>_12435ADA-3C57-414C-8DDD-5D236E462BD8_CommentInput</bpmn2:targetRef>
         <bpmn2:assignment id="_k9MkTLzKEeKT6qCaqCIbfQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9MkTbzKEeKT6qCaqCIbfQ"><![CDATA[Proposal for: ${name}]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9MkTbzKEeKT6qCaqCIbfQ"><![CDATA[Proposal for: #{name}]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k9MkTrzKEeKT6qCaqCIbfQ">_12435ADA-3C57-414C-8DDD-5D236E462BD8_CommentInput</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -293,7 +293,7 @@
       <bpmn2:dataInputAssociation id="_k9MkXbzKEeKT6qCaqCIbfQ">
         <bpmn2:targetRef>_D9B752FE-4900-4172-B8C9-31CC838E18A5_CommentInput</bpmn2:targetRef>
         <bpmn2:assignment id="_k9MkXrzKEeKT6qCaqCIbfQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9MkX7zKEeKT6qCaqCIbfQ"><![CDATA[with ${name}]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k9MkX7zKEeKT6qCaqCIbfQ"><![CDATA[with #{name}]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k9MkYLzKEeKT6qCaqCIbfQ">_D9B752FE-4900-4172-B8C9-31CC838E18A5_CommentInput</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
