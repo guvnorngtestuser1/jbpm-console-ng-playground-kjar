@@ -1,3 +1,4 @@
+
 <form id="1959602414">
 <property name="subject" value=""/>
 <property name="name" value="TestFormulas-taskform.form"/>
@@ -9,7 +10,6 @@
 <property name="label" value="quot;enquot;,quot;a (in_values)quot;"/>
 <property name="inputBinding" value="{in_values/a}"/>
 <property name="outputBinding" value="{out_values/a}"/>
-<property name="subformClass" value="java.lang.Integer"/>
 </field>
 <field position="1" name="in_values_b" type="InputTextInteger" id="1291486852">
 <property name="fieldName" value="in_values_b"/>
@@ -17,7 +17,6 @@
 <property name="label" value="quot;enquot;,quot;b (in_values)quot;"/>
 <property name="inputBinding" value="{in_values/b}"/>
 <property name="outputBinding" value="{out_values/b}"/>
-<property name="subformClass" value="java.lang.Integer"/>
 </field>
 <field position="2" name="in_values_result" type="InputTextInteger" id="559600199">
 <property name="fieldName" value="in_values_result"/>
@@ -31,14 +30,30 @@
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
-<property name="formula" value="={in_values_a} + {in_values_b}"/>
+<property name="formula" value="={in_values_a} + {in_values_b} + {in_values_subc/d}"/>
 <property name="rangeFormula" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="{in_values/result}"/>
 <property name="outputBinding" value="{out_values/result}"/>
-<property name="subformClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="in_values_subc" type="Subform" id="154005987">
+<property name="fieldName" value="in_values_subc"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;subc (in_values)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="{in_values/subc}"/>
+<property name="outputBinding" value="{out_values/subc}"/>
+<property name="defaultSubform" value="SubComponent-taskform.form"/>
 </field>
 <dataHolder name="#FF8881" type="dataModelerEntry" outId="out_values" value="org.kie.test.TestFormulas" id="in_values"/>
 </form>
