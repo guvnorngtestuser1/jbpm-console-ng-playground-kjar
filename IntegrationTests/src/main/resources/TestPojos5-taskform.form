@@ -1,3 +1,4 @@
+
 <form id="2114293525">
 <property name="subject" value=""/>
 <property name="name" value="Task5form2.form"/>
@@ -16,6 +17,44 @@
 <property name="label" value="quot;enquot;,quot;number (in_invoice)quot;"/>
 <property name="inputBinding" value="{in_invoice/number}"/>
 <property name="outputBinding" value="{invoice/number}"/>
+</field>
+<field position="2" name="in_invoice_lines" type="Subform" id="988764124">
+<property name="fieldName" value="in_invoice_lines"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;lines (in_invoice)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="{in_invoice/lines}"/>
+<property name="outputBinding" value="{invoice/lines}"/>
+<property name="defaultSubform" value="InvoiceLine.form"/>
+</field>
+<field position="3" name="in_invoice_total" type="InputTextDouble" id="1840690733">
+<property name="fieldName" value="in_invoice_total"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;total (in_invoice)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value="= {sum(in_invoice_lines/line_total)}"/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="{in_invoice/total}"/>
+<property name="outputBinding" value="{invoice/total}"/>
 </field>
 <dataHolder name="#FF8881" type="dataModelerEntry" outId="invoice" value="org.kie.test.Invoice" id="in_invoice"/>
 </form>
