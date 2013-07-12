@@ -1,7 +1,7 @@
 
 <form id="541717125">
 <property name="subject" value=""/>
-<property name="name" value="TestPojos51-taskform.form"/>
+<property name="name" value="TestPojos5-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
 <field position="0" name="invoice_number" type="InputText" id="189065094">
