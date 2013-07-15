@@ -52,7 +52,7 @@
 <property name="label" value="quot;enquot;,quot;total (in_invoice)quot;"/>
 <property name="inputBinding" value="{in_invoice/total}"/>
 <property name="outputBinding" value="{invoice/total}"/>
-<property name="formula" value="={sum(in_invoice_line/line_total)}"/>
+<!--property name="formula" value="={sum(in_invoice_line/line_total)}"/-->
 </field>
 <dataHolder name="#FF8881" type="dataModelerEntry" outId="invoice" value="org.kie.test.Invoice" id="in_invoice"/>
 </form>
