@@ -13,22 +13,22 @@ public class PositionTest1 implements java.io.Serializable {
 
     private String field0;
 
-    @org.kie.api.definition.type.Position(value="4")
+    @org.kie.api.definition.type.Position(value = 4)
     private String field1;
     
     private String field2;
 
-    @org.kie.api.definition.type.Position(value="100")
+    @org.kie.api.definition.type.Position(value = 100)
     private String field3;
 
     private String field4;
 
-    @org.kie.api.definition.type.Position(value="0")
+    @org.kie.api.definition.type.Position(value = 0)
     private String field5;
 
     private String field6;
 
-    @org.kie.api.definition.type.Position(value="-50")
+    @org.kie.api.definition.type.Position(value = -50)
     private String field7;
 
     public PositionTest1() {
