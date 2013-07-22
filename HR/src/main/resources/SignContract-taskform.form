@@ -25,7 +25,7 @@
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="{in_name}"/>
+<property name="inputBinding" value="in_name"/>
 <property name="outputBinding" value=""/>
 </field>
 <field position="1" name="in_offering" type="InputTextLong" id="1255448511">
@@ -45,7 +45,7 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="{in_offering}"/>
+<property name="inputBinding" value="in_offering"/>
 <property name="outputBinding" value=""/>
 </field>
 <field position="2" name="out_signed" type="CheckBox" id="635130592">
@@ -63,6 +63,6 @@
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{out_signed}"/>
+<property name="outputBinding" value="out_signed"/>
 </field>
 </form>

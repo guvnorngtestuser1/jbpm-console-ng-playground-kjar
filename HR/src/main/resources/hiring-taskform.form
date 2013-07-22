@@ -27,6 +27,6 @@
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{name}"/>
+<property name="outputBinding" value="name"/>
 </field>
 </form>

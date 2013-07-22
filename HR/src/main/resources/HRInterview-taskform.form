@@ -25,7 +25,7 @@
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="{in_name}"/>
+<property name="inputBinding" value="in_name"/>
 <property name="outputBinding" value=""/>
 </field>
 <field position="1" name="age" type="InputTextInteger" id="610009915">
@@ -47,7 +47,7 @@
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{out_age}"/>
+<property name="outputBinding" value="out_age"/>
 </field>
 <field position="2" name="mail" type="InputTextEmail" id="1708799249">
 <property name="fieldName" value="mail"/>
@@ -66,7 +66,7 @@
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{out_mail}"/>
+<property name="outputBinding" value="out_mail"/>
 </field>
 <field position="3" name="hr_score" type="InputTextInteger" id="587322916">
 <property name="fieldName" value="hr_score"/>
@@ -86,6 +86,6 @@
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{out_score}"/>
+<property name="outputBinding" value="out_score"/>
 </field>
 </form>

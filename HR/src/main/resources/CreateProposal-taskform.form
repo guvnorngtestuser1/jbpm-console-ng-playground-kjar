@@ -27,7 +27,7 @@
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="outputBinding" value=""/>
-<property name="inputBinding" value="{in_tech_score}"/>
+<property name="inputBinding" value="in_tech_score"/>
 </field>
 <field position="1" name="hrscore" type="InputText" id="1396079384">
 <property name="fieldName" value="hrscore"/>
@@ -50,7 +50,7 @@
 <property name="hideContent" value="false"/>
 <property name="htmlContainer" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="{in_hr_score}"/>
+<property name="inputBinding" value="in_hr_score"/>
 <property name="outputBinding" value=""/>
 </field>
 <field position="2" name="offering" type="InputTextInteger" id="438070247">
@@ -71,6 +71,6 @@
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{out_offering}"/>
+<property name="outputBinding" value="out_offering"/>
 </field>
 </form>
