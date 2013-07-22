@@ -1,47 +1,94 @@
-
 <form id="506870855">
 <property name="subject" value=""/>
 <property name="name" value="InvoiceLine.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
 <field position="0" name="line_line" type="InputTextInteger" id="927382161">
-<property name="fieldName" value="line_line"/>
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;line (line)quot;"/>
-<property name="inputBinding" value="{line/line}"/>
-<property name="outputBinding" value="{line/line}"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;enquot;,quot;line (line)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="line/line"/>
+<property name="outputBinding" value="line/line"/>
 </field>
 <field position="1" name="line_article" type="InputText" id="912536317">
-<property name="fieldName" value="line_article"/>
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;article (line)quot;"/>
-<property name="inputBinding" value="{line/article}"/>
-<property name="outputBinding" value="{line/article}"/>
-</field>
-<field position="2" name="line_unitPrice" type="InputTextDouble" id="1052293984">
-<property name="fieldName" value="line_unitPrice"/>
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;unitPrice (line)quot;"/>
-<property name="inputBinding" value="{line/unitPrice}"/>
-<property name="outputBinding" value="{line/unitPrice}"/>
-</field>
-<field position="3" name="line_units" type="InputTextInteger" id="1460782978">
-<property name="fieldName" value="line_units"/>
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;units (line)quot;"/>
-<property name="inputBinding" value="{line/units}"/>
-<property name="outputBinding" value="{line/units}"/>
-</field>
-<field position="4" name="line_total" type="InputTextDouble" id="674396249">
-<property name="fieldName" value="line_total"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;total (line)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;article (line)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="line/article"/>
+<property name="outputBinding" value="line/article"/>
+</field>
+<field position="2" name="line_unitPrice" type="InputTextDouble" id="1052293984">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;enquot;,quot;unitPrice (line)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="line/unitPrice"/>
+<property name="outputBinding" value="line/unitPrice"/>
+</field>
+<field position="3" name="line_units" type="InputTextInteger" id="1460782978">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;enquot;,quot;units (line)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="line/units"/>
+<property name="outputBinding" value="line/units"/>
+</field>
+<field position="4" name="line_total" type="InputTextDouble" id="674396249">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;enquot;,quot;total (line)quot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
@@ -53,8 +100,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="{line/total}"/>
-<property name="outputBinding" value="{line/total}"/>
+<property name="inputBinding" value="line/total"/>
+<property name="outputBinding" value="line/total"/>
 </field>
-<dataHolder name="#FF8881" type="dataModelerEntry" outId="line" value="org.kie.test.InvoiceLine" id="line"/>
+<dataHolder inputId="" name="#FF8881" type="dataModelerEntry" outId="line" value="org.kie.test.InvoiceLine" id="line"/>
 </form>
