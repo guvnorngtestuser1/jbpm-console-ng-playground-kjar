@@ -1,0 +1,117 @@
+
+<form id="774361925">
+<property name="subject" value=""/>
+<property name="name" value="TestTypesTask1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="simple_boolean" type="CheckBox" id="860618823">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_simple_boolean (simple_boolean)quot;"/>
+<property name="inputBinding" value="in_simple_boolean"/>
+<property name="outputBinding" value="out_simple_boolean"/>
+</field>
+<field position="1" name="simple_float" type="InputTextFloat" id="1796021420">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_simple_float (simple_float)quot;"/>
+<property name="inputBinding" value="in_simple_float"/>
+<property name="outputBinding" value="out_simple_float"/>
+</field>
+<field position="2" name="simple_int" type="InputTextInteger" id="754608628">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_simple_int (simple_int)quot;"/>
+<property name="inputBinding" value="in_simple_int"/>
+<property name="outputBinding" value="out_simple_int"/>
+</field>
+<field position="3" name="simple_string" type="InputText" id="820751688">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_simple_string (simple_string)quot;"/>
+<property name="inputBinding" value="in_simple_string"/>
+<property name="outputBinding" value="out_simple_string"/>
+</field>
+<field position="4" name="testTypes_lines" type="MultipleSubform" id="1911879067">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;lines (testTypes)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="in_testTypes/lines"/>
+<property name="outputBinding" value="out_testTypes/lines"/>
+<property name="defaultSubform" value="TestTypesLine.form"/>
+<property name="previewSubform" value="TestTypesLine.form"/>
+<property name="tableSubform" value="TestTypesLine.form"/>
+<property name="newItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="addItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="deleteItems" value="true"/>
+<property name="updateItems" value="true"/>
+<property name="visualizeItems" value="true"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+</field>
+<field position="5" name="testTypes_useBigDecimal" type="InputTextBigDecimal" id="1771182514">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useBigDecimal (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useBigDecimal"/>
+<property name="outputBinding" value="out_testTypes/useBigDecimal"/>
+</field>
+<field position="6" name="testTypes_useBoolean" type="CheckBox" id="1324967200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useBoolean (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useBoolean"/>
+<property name="outputBinding" value="out_testTypes/useBoolean"/>
+</field>
+<field position="7" name="testTypes_useDate" type="InputDate" id="1505331653">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useDate (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useDate"/>
+<property name="outputBinding" value="out_testTypes/useDate"/>
+</field>
+<field position="8" name="testTypes_useDouble" type="InputTextDouble" id="790355374">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useDouble (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useDouble"/>
+<property name="outputBinding" value="out_testTypes/useDouble"/>
+</field>
+<field position="9" name="testTypes_useFloat" type="InputTextFloat" id="1758195062">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useFloat (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useFloat"/>
+<property name="outputBinding" value="out_testTypes/useFloat"/>
+</field>
+<field position="10" name="testTypes_useInteger" type="InputTextInteger" id="1359312704">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useInteger (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useInteger"/>
+<property name="outputBinding" value="out_testTypes/useInteger"/>
+</field>
+<field position="11" name="testTypes_useLong" type="InputTextLong" id="117438005">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useLong (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useLong"/>
+<property name="outputBinding" value="out_testTypes/useLong"/>
+</field>
+<field position="12" name="testTypes_useShort" type="InputTextShort" id="2034609978">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useShort (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useShort"/>
+<property name="outputBinding" value="out_testTypes/useShort"/>
+</field>
+<field position="13" name="testTypes_useString" type="InputText" id="150231722">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useString (testTypes)quot;"/>
+<property name="inputBinding" value="in_testTypes/useString"/>
+<property name="outputBinding" value="out_testTypes/useString"/>
+</field>
+<dataHolder inputId="in_simple_boolean" name="#B29FE4" type="basicType" outId="out_simple_boolean" value="java.lang.Boolean" id="simple_boolean"/>
+<dataHolder inputId="in_simple_float" name="#A7E690" type="basicType" outId="out_simple_float" value="java.lang.Float" id="simple_float"/>
+<dataHolder inputId="in_simple_int" name="#FF54A7" type="basicType" outId="out_simple_int" value="java.lang.Integer" id="simple_int"/>
+<dataHolder inputId="in_simple_string" name="#9BCAFA" type="basicType" outId="out_simple_string" value="java.lang.String" id="simple_string"/>
+<dataHolder inputId="in_testTypes" name="#0000A0" type="dataModelerEntry" outId="out_testTypes" value="org.kie.test.TestTypes" id="testTypes"/>
+</form>
