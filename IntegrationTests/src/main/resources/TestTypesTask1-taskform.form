@@ -28,7 +28,7 @@
 <property name="inputBinding" value="in_simple_string"/>
 <property name="outputBinding" value="out_simple_string"/>
 </field>
-<field position="4" name="testTypes_lines" type="MultipleSubform" id="1911879067">
+<field position="4" name="testTypes_lines" type="MultipleSubform" id="285578993">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>

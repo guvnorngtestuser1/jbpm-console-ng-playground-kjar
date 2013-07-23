@@ -1,0 +1,62 @@
+
+<form id="285578993">
+<property name="subject" value=""/>
+<property name="name" value="TestTypesLine.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="line_useBigDecimal" type="InputTextBigDecimal" id="120066595">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useBigDecimal (line)quot;"/>
+<property name="inputBinding" value="line/useBigDecimal"/>
+<property name="outputBinding" value="line/useBigDecimal"/>
+</field>
+<field position="1" name="line_useBoolean" type="CheckBox" id="1444956178">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useBoolean (line)quot;"/>
+<property name="inputBinding" value="line/useBoolean"/>
+<property name="outputBinding" value="line/useBoolean"/>
+</field>
+<field position="2" name="line_useDate" type="InputDate" id="1945623749">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useDate (line)quot;"/>
+<property name="inputBinding" value="line/useDate"/>
+<property name="outputBinding" value="line/useDate"/>
+</field>
+<field position="3" name="line_useDouble" type="InputTextDouble" id="1529438937">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useDouble (line)quot;"/>
+<property name="inputBinding" value="line/useDouble"/>
+<property name="outputBinding" value="line/useDouble"/>
+</field>
+<field position="4" name="line_useFloat" type="InputTextFloat" id="1735296411">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useFloat (line)quot;"/>
+<property name="inputBinding" value="line/useFloat"/>
+<property name="outputBinding" value="line/useFloat"/>
+</field>
+<field position="5" name="line_useInteger" type="InputTextInteger" id="1205648608">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useInteger (line)quot;"/>
+<property name="inputBinding" value="line/useInteger"/>
+<property name="outputBinding" value="line/useInteger"/>
+</field>
+<field position="6" name="line_useLong" type="InputTextLong" id="378175998">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useLong (line)quot;"/>
+<property name="inputBinding" value="line/useLong"/>
+<property name="outputBinding" value="line/useLong"/>
+</field>
+<field position="7" name="line_useShort" type="InputTextShort" id="437614716">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useShort (line)quot;"/>
+<property name="inputBinding" value="line/useShort"/>
+<property name="outputBinding" value="line/useShort"/>
+</field>
+<field position="8" name="line_useString" type="InputText" id="807365732">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;useString (line)quot;"/>
+<property name="inputBinding" value="line/useString"/>
+<property name="outputBinding" value="line/useString"/>
+</field>
+<dataHolder inputId="line" name="#0000A0" type="dataModelerEntry" outId="line" value="org.kie.test.TestTypesLine" id="line"/>
+</form>
