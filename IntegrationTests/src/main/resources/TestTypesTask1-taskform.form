@@ -1,4 +1,3 @@
-
 <form id="774361925">
 <property name="subject" value=""/>
 <property name="name" value="TestTypesTask1-taskform.form"/>
@@ -108,6 +107,12 @@
 <property name="label" value="quot;enquot;,quot;useString (testTypes)quot;"/>
 <property name="inputBinding" value="in_testTypes/useString"/>
 <property name="outputBinding" value="out_testTypes/useString"/>
+</field>
+<field position="14" name="505065198" type="HTMLEditor" id="505065198">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;HTMLEditor14quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
 </field>
 <dataHolder inputId="in_simple_boolean" name="#B29FE4" type="basicType" outId="out_simple_boolean" value="java.lang.Boolean" id="simple_boolean"/>
 <dataHolder inputId="in_simple_float" name="#A7E690" type="basicType" outId="out_simple_float" value="java.lang.Float" id="simple_float"/>
