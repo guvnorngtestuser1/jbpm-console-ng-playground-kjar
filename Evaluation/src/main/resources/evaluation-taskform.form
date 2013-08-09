@@ -1,4 +1,3 @@
-
 <form id="1634631252">
 <property name="subject" value=""/>
 <property name="name" value="com.sample.evaluation-taskform"/>
@@ -6,7 +5,6 @@
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
 <field position="0" name="301394101" type="InputText" id="301394101">
-<property name="fieldName" value="301394101"/>
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -26,10 +24,9 @@
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{employee}"/>
+<property name="outputBinding" value="employee"/>
 </field>
 <field position="1" name="1698224711" type="InputTextArea" id="1698224711">
-<property name="fieldName" value="1698224711"/>
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="3"/>
@@ -48,6 +45,6 @@
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="{reason}"/>
+<property name="outputBinding" value="reason"/>
 </field>
 </form>
