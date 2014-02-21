@@ -55,6 +55,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "Async Service",
+    "parameters" : [
+         "CommandClass" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "async",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]
