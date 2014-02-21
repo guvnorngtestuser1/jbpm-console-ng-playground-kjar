@@ -58,7 +58,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ],
   
   [
-    "name" : "Async Service",
+    "name" : "async",
     "parameters" : [
          "CommandClass" : new StringDataType()
     ],
