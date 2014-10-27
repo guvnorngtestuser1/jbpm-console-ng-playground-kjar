@@ -179,14 +179,14 @@
     <bpmn2:scriptTask id="_E1C119C7-2B4E-4F30-9359-94927923C7CF" drools:selectable="true" name="Transform" scriptFormat="http://www.mvel.org/2.0">
       <bpmn2:incoming>_7816DB91-1130-49D7-90B4-2ED47A363087</bpmn2:incoming>
       <bpmn2:outgoing>_6D83BCB9-BF17-4263-B8E8-8A6C08939CE8</bpmn2:outgoing>
-      <bpmn2:script><![CDATA[String info = "Response is operation executed successfully:" + weather.success +
-"\n City:" + weather.city +
-"\n State: " + weather.state +
-"\n Description: " + weather.description +
-"\n Temperature :" + weather.temperature +
-"\n Wind: "+ weather.wind +
-"\n Visibility: " + weather.visibility +
-"\n Remarks : " + weather.remarks;
+      <bpmn2:script><![CDATA[String info = "Response is operation executed successfully:" + weather.success;
+info = info + "\n City:" + weather.city;
+info = info + "\n State: " + weather.state;
+info = info + "\n Description: " + weather.description;
+info = info + "\n Temperature :" + weather.temperature;
+info = info + "\n Wind: "+ weather.wind;
+info = info + "\n Visibility: " + weather.visibility;
+info = info + "\n Remarks : " + weather.remarks;
 System.out.println(info);
 kcontext.setVariable("weather", null);
 kcontext.setVariable("weather Info", info);]]></bpmn2:script>
