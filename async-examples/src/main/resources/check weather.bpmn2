@@ -189,7 +189,7 @@ info = info + "\n Visibility: " + weather.visibility;
 info = info + "\n Remarks : " + weather.remarks;
 System.out.println(info);
 kcontext.setVariable("weather", null);
-kcontext.setVariable("weather Info", info);]]></bpmn2:script>
+kcontext.setVariable("weatherInfo", info);]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_7816DB91-1130-49D7-90B4-2ED47A363087" drools:bgcolor="#000000" drools:selectable="true" sourceRef="_481278B2-E4E3-4E9E-A3E3-722ECF37BB32" targetRef="_E1C119C7-2B4E-4F30-9359-94927923C7CF"/>
     <bpmn2:boundaryEvent id="_98F00B0C-C60D-4406-9D68-3CEEB60BA58A" drools:bgcolor="#f5deb3" drools:selectable="true" drools:bordercolor="#a0522d" drools:boundaryca="false" name="" attachedToRef="_481278B2-E4E3-4E9E-A3E3-722ECF37BB32" cancelActivity="false">
